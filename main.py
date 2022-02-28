@@ -2,17 +2,15 @@ import random
 
 
 class Wordle:
-    def __init__(self, word_length):
-        self.word_length = word_length
-
+    def __init__(self):
         self.Wordle.new_game()
 
-    def new_game(self, word_length):
+    def new_game(self):
         print("new game")
 
 
-def play(word_length=5):
-    wordle = Wordle(word_length)
+def play():
+    wordle = Wordle()
     solved = False
 
     print("Enter your guess: ")
