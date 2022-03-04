@@ -18,7 +18,9 @@ def play():
     wordle = Wordle()
     solved = False
 
-    print("Enter your guess: ")
+    while solved == False:
+        print(wordle)
+        print("Enter your guess: ")
 
 
 if __name__ == "__main__":
