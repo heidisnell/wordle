@@ -8,6 +8,11 @@ class Wordle:
     def new_game(self):
         print("new game")
 
+        with open("possible_words.txt") as possible_words:
+            lines = possible_words.readlines()
+
+        print(lines)
+
 
 def play():
     wordle = Wordle()
